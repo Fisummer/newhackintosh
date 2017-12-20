@@ -1,0 +1,23 @@
+
+Verbs from Linux Codec Dump File: codec#0
+
+Codec: Intel Haswell HDMI   Address: 0   DevID: 2156275719 (0x80862807)
+
+   Jack   Color  Description                  Node     PinDefault             Original Verbs
+--------------------------------------------------------------------------------------------------------
+Digital Unknown  Digital Out at Int HDMI      5 0x05   0x18560010   00571c10 00571d00 00571e56 00571f18
+Digital Unknown  Digital Out at Int HDMI      6 0x06   0x18560010   00671c10 00671d00 00671e56 00671f18
+Digital Unknown  Digital Out at Int HDMI      7 0x07   0x18560010   00771c10 00771d00 00771e56 00771f18
+--------------------------------------------------------------------------------------------------------
+
+
+   Jack   Color  Description                  Node     PinDefault             Modified Verbs
+--------------------------------------------------------------------------------------------------------
+Digital Unknown  Digital Out at Int HDMI      5 0x05   0x18560010   00571c10 00571d00 00571e56 00571f10
+Digital Unknown  Digital Out at Int HDMI      6 0x06   0x18560010   00671c20 00671d00 00671e56 00671f10
+Digital Unknown  Digital Out at Int HDMI      7 0x07   0x18560010   00771c30 00771d00 00771e56 00771f10
+--------------------------------------------------------------------------------------------------------
+
+Modified Verbs in One Line: 00571c10 00571d00 00571e56 00571f10 00671c20 00671d00 00671e56 00671f10 00771c30 00771d00 00771e56 00771f10
+--------------------------------------------------------------------------------------------------------
+

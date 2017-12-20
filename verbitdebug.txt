@@ -1,0 +1,73 @@
+Blacklist:
+411111f0 400000f0 CD at Int ATAPI
+Removed Nodes: 0x12 0x15 0x16 0x17 0x1a 0x1c 0x1f 
+Checking 71c Associations
+
+Current Associations
+ 01171c40 = 4 
+ 01471c10 = 1 
+ 01871c40 = 4 
+ 01971c50 = 5 
+ 01b71c20 = 2 
+ 01d71c2d = 2 
+ 01e71c30 = 3 
+
+  Used associations = 4 1 4 5 2 2 3
+Unused associations = 6 7 8 9 a b c d e
+
+Correcting duplicate associations
+
+Checking if 4 already exists in: 1 4 5 2 2 3 
+   duplicate found - Is this the first time we've seen this association?
+   yes - ignoring
+Checking if 1 already exists in: 4 4 5 2 2 3 
+   no duplicate found
+Checking if 4 already exists in: 4 1 5 2 2 3 
+   duplicate found - Is this the first time we've seen this association?
+   no - replacing association with: 6
+Checking if 5 already exists in: 4 1 6 2 2 3 
+   no duplicate found
+Checking if 2 already exists in: 4 1 6 5 2 3 
+   duplicate found - Is this the first time we've seen this association?
+   yes - ignoring
+Checking if 2 already exists in: 4 1 6 5 2 3 
+   duplicate found - Is this the first time we've seen this association?
+   no - replacing association with: 7
+Checking if 3 already exists in: 4 1 6 5 2 7 
+   no duplicate found
+
+New 71c Associations
+ Before      After
+--------------------------------------------------
+01171c40   01171c40  01171dc0  01171e00  01171f40
+01471c10   01471c10  01471d10  01471e21  01471f01
+01871c40   01871c60  01871d10  01871ea1  01871f01
+01971c50   01971c50  01971d01  01971ea7  01971f90
+01b71c20   01b71c20  01b71d01  01b71e17  01b71f90
+01d71c2d   01d71c70  01d71db2  01d71e27  01d71f40
+01e71c30   01e71c30  01e71d11  01e71e45  01e71f01
+
+Reset 71d Misc to 0
+New 71d Associations
+ Before                After
+--------------------------------------------------
+01171dc0   01171c40  01171dc0  01171e00  01171f40
+01471d10   01471c10  01471d10  01471e21  01471f01
+01871d10   01871c60  01871d10  01871ea1  01871f01
+01971d01   01971c50  01971d00  01971ea7  01971f90
+01b71d01   01b71c20  01b71d00  01b71e17  01b71f90
+01d71db2   01d71c70  01d71db0  01d71e27  01d71f40
+01e71d11   01e71c30  01e71d10  01e71e45  01e71f01
+
+Correct 71f 02 FP to 01
+New 71f Associations
+ Before                                    After
+--------------------------------------------------
+01171dc0   01171c40  01171dc0  01171e00  01171f40
+01471d10   01471c10  01471d10  01471e21  01471f01
+01871d10   01871c60  01871d10  01871ea1  01871f01
+01971d01   01971c50  01971d00  01971ea7  01971f90
+01b71d01   01b71c20  01b71d00  01b71e17  01b71f90
+01d71db2   01d71c70  01d71db0  01d71e27  01d71f40
+01e71d11   01e71c30  01e71d10  01e71e45  01e71f01
+ 
