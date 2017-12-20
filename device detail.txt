@@ -1,0 +1,5 @@
+ speaker_outs(my laptop's built-in speaker)                                0x1b  
+ hp_out(need to connect to headphone's speaker aka the headphone ersai)    0x14
+ dig-out(the s/pdif need to connect to the pdif line for the device)       0x1e
+ Internal Mic(my laptop built-in mic)                                      0x19
+ Mic(need to connect to the external mic in the left side mic jack)        0x18
